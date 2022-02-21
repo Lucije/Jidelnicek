@@ -1,0 +1,22 @@
+.container {
+
+  padding: 0rem 2rem;
+}
+
+.disclaimer {
+  margin-bottom: 2rem;
+}
+
+.link {
+  margin: 2rem;
+}
+
+.exeform {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .constainer{
+    padding:10rem;
+  }
+}

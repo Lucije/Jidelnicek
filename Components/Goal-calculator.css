@@ -1,0 +1,30 @@
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;}
+
+
+    @media only screen and (min-width: 600px) {
+    
+    .inputs2 {
+        display: flex;
+        justify-content: space-around;
+        padding: 0rem 7rem;}
+
+ 
+    .exeform {
+        width: 100%;
+    text-align: center;
+    }
+
+    
+    .ybmr {
+        text-align: center;
+    }
+    }

@@ -1,0 +1,110 @@
+
+template {
+  display: block;
+}
+
+.calculator {
+  border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.first {
+  justify-self: right;
+}
+
+.picture {
+  width: 50px;
+  height: auto;
+}
+
+.windows {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20rem;
+    margin-top: 1rem
+}
+
+.windows img,p {
+  justify-self: center;
+ 
+    margin-bottom: 0.5rem;
+}
+
+.windows .input {
+  display: flex;
+  justify-self: center
+ 
+}
+
+.windows img {
+  margin-right: 1rem;
+}
+
+.submit {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.headerForms {
+  height: 20rem;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+template {padding: 2rem;
+    display: flex;
+    justify-content: center;}
+
+.calculator {
+  min-width: 1000px;
+}
+
+.windows {
+  display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 5rem;
+}
+
+.headerForms {
+  height: 6rem;
+    margin-top: 3rem;
+}
+
+.your-bmr {
+  text-align: center;
+}
+
+.SecondInputs {
+  margin-top: 5rem;
+}
+.windows .input {
+  width: 10rem;
+    height: 3rem;
+    flex-direction: column;
+}
+
+.input img {
+  width: 3rem;
+    height: 3rem;
+    margin-left: 3.5rem;
+}
+
+form p {
+  text-align: center;
+}
+
+}

@@ -1,0 +1,46 @@
+.info {
+  padding: 0rem 4rem;
+}
+
+.info-cards {
+  margin-top: 4rem;
+}
+
+.number {
+  display: grid;
+}
+
+.number img {
+  height: 10rem;
+  width: auto;
+  justify-self: center;
+  margin-left: -3rem;
+}
+
+.info-text h1 {
+  margin-top: 2rem;
+}
+
+.info-text h3 {
+  margin-top: 4rem;
+}
+
+.step {
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+  
+  .info {
+    padding: 2rem 7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-cards {
+    margin-top: 4rem;
+    display: flex;
+  }
+  
+}
